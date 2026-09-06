@@ -1,12 +1,12 @@
-# Add project specific R8 rules here.
-# AGP will combine all keep rule files in src/main/keepRules to pass to R8
+# 在此添加项目专属的 R8 混淆规则。
+# AGP 会把 src/main/keepRules 下的所有 keep 规则文件合并后交给 R8。
 #
-# For more details, see
+# 更多细节参见：
 #   https://d.android.com/r/tools/r8/keep-rules
 
-# If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
+# 如果工程通过 WebView 调用 JS，请取消下面注释，
+# 并把 fqcn.of.javascript.interface.for.webview 替换成你的
+# JavaScript 接口类的完整限定名：
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}

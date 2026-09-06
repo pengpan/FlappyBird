@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Fullscreen, action-bar-free theme for the game activity. -->
+    <!-- 游戏 Activity 使用的全屏、无 ActionBar 主题 -->
     <style name="Theme.FlappyBird" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:windowBackground">@color/white</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
