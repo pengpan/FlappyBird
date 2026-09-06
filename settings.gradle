@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Flappy Bird"
+rootProject.name = "FlappyBird"
 include ':app'
